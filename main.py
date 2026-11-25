@@ -12,7 +12,7 @@ PUNCHLINE = "the smoke alarm and I are now in a committed relationship"
 
 def build_line() -> str:
     """Assemble the joke from its parts."""
-    return ", ".join([SETUP, PUNCHLINE]) + "."
+    return ", but ".join([SETUP, PUNCHLINE]) + "."
 
 
 def main() -> None:
